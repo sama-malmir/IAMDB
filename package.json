@@ -8,7 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.13",
     "pinia": "^2.0.28",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
