@@ -1,17 +1,17 @@
 <template>
   <div class="bg-back-ground text-main-color">
     <CoverSite/>    
-    
+    <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
   </div>
 </template>
 
 <script >
 import CoverSite from '../components/CoverSite.vue'
-
+import CastAndCrew from '../components/CastAndCrew.vue';
 export default{
   data(){
     return{
-      
+      listeBazigaran: {},
       movieData: {
 "id": "tt0371746",
 "title": "Iron Man",
@@ -683,7 +683,7 @@ export default{
   },
   components:{
     CoverSite,
-    
+    CastAndCrew,
   },
   methods:{
     getMovie(){
@@ -691,7 +691,7 @@ export default{
       .then(response=>response.text())
       .then(response=>JSON.parse(response))
       .then(response=>{
-        
+        this.listeBazigaran = this.movieData.actorList.slice(0, 5)
       });
     },
   },
