@@ -2,6 +2,7 @@
   <div class="bg-back-ground text-main-color">
     <CoverSite />
     <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
+    <BtnLinks />
     <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
     <Photos :listKameleImgs="listeImgs" />
   </div>
@@ -10,6 +11,7 @@
 <script >
 import CoverSite from '../components/CoverSite.vue';
 import TitleMovie from '../components/TitleMovie.vue';
+import BtnLinks from '../components/BtnLinks.vue';
 import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
 export default {
@@ -890,6 +892,7 @@ export default {
     CastAndCrew,
     Photos,
     TitleMovie,
+    BtnLinks
 },
   methods: {
     getMovie() {

@@ -11,14 +11,17 @@ module.exports = {
         'secondary-color':'rgba(206, 18, 18, 1)',
         'yellow-color':'rgba(255, 210, 0, 1)',
         'back-ground': 'rgba(27, 23, 23, 1)',
+        'hover-btnlinks':'rgba(255, 255, 255, 0.1)'
       },
       spacing: {
         'w-18': '75px',
         'w-21':'21px',
+        'w-61':'61px',
       },
       height: {
         'h-18': '75px',
         'h-21':'21px',
+        'h-61':'61px',
       },
       fontSize: {
         f14: ['14px', '16.41px'],
