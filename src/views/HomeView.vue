@@ -1,6 +1,7 @@
 <template>
   <div class="bg-back-ground text-main-color">
     <CoverSite />
+    <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
     <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
     <Photos :listKameleImgs="listeImgs" />
   </div>
@@ -8,11 +9,17 @@
 
 <script >
 import CoverSite from '../components/CoverSite.vue';
+import TitleMovie from '../components/TitleMovie.vue';
 import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
 export default {
   data() {
     return {
+      title:null,
+      direcotr:null,
+      year:null,
+      rated:null,
+      runtime:null,
       listeBazigaran: {},
       listeImgs:{},
       movieData: {
@@ -882,6 +889,7 @@ export default {
     CoverSite,
     CastAndCrew,
     Photos,
+    TitleMovie,
 },
   methods: {
     getMovie() {
@@ -889,6 +897,11 @@ export default {
         .then(response => response.text())
         .then(response => JSON.parse(response))
         .then(response => {
+          this.title=this.movieData.title,
+          this.direcotr=this.movieData.directors,
+          this.year=this.movieData.year,
+          this.rated=this.movieData.contentRating,
+          this.runtime=this.movieData.runtimeStr,
           this.listeBazigaran = this.movieData.actorList.slice(0,5),
           this.listeImgs=this.movieData.images.items.slice(0,10)
         });

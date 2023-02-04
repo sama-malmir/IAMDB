@@ -26,6 +26,9 @@ module.exports = {
         ftm: ['24px', '50px'],
         ftd: ['28px', '50px'],
         f18: ['18px','21px'],
+        f32: ['32px','40px'],
+        f48:['48px','40px'],
+    
       },
       margin: {
         '15px': '15px',
