@@ -3,6 +3,7 @@
     <CoverSite />
     <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
     <BtnLinks />
+    <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
     <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
     <Photos :listKameleImgs="listeImgs" />
   </div>
@@ -14,6 +15,7 @@ import TitleMovie from '../components/TitleMovie.vue';
 import BtnLinks from '../components/BtnLinks.vue';
 import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
+import DetailsMovie from '../components/DetailsMovie.vue';
 export default {
   data() {
     return {
@@ -22,6 +24,13 @@ export default {
       year:null,
       rated:null,
       runtime:null,
+      plot:null,
+      writers:null,
+      genres:null,
+      awards:null,
+      countries:null,
+      imDbRating:null,
+
       listeBazigaran: {},
       listeImgs:{},
       movieData: {
@@ -892,7 +901,8 @@ export default {
     CastAndCrew,
     Photos,
     TitleMovie,
-    BtnLinks
+    BtnLinks,
+    DetailsMovie
 },
   methods: {
     getMovie() {
@@ -905,6 +915,14 @@ export default {
           this.year=this.movieData.year,
           this.rated=this.movieData.contentRating,
           this.runtime=this.movieData.runtimeStr,
+          this.plot=this.movieData.plot,
+          this.writers=this.movieData.writers,
+          this.genres=this.movieData.genres,
+          this.awards=this.movieData.awards,
+          this.countries=this.movieData.countries,
+          this.imDbRating=this.movieData.imDbRating,
+          
+          
           this.listeBazigaran = this.movieData.actorList.slice(0,5),
           this.listeImgs=this.movieData.images.items.slice(0,10)
         });
