@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'coversite': "url('../assets/img/cover.png')",
+      },
       colors:{
         'main-color':'#EEEBDD',
         'secondary-color':'rgba(206, 18, 18, 1)',
@@ -21,6 +24,9 @@ module.exports = {
         'w-330':'330px',
         'w-158':'158px',
         'w-216':'216px',
+        'w-230':'230px',
+        'w-276':'276px',
+        'w-198':'198px'
       },
       height: {
         'h-18': '75px',
@@ -28,6 +34,8 @@ module.exports = {
         'h-61':'61px',
         'h-102':'102px',
         'h-144':'144px',
+        'h-342':'342px',
+        'h-409':'409px',
       },
       fontSize: {
         f14: ['14px', '16.41px'],

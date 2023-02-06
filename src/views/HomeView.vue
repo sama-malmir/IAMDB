@@ -6,6 +6,7 @@
     <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
     <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
     <Photos :listKameleImgs="listeImgs" />
+    <Similars :fullMovies="movieList" />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import BtnLinks from '../components/BtnLinks.vue';
 import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
 import DetailsMovie from '../components/DetailsMovie.vue';
+import Similars from '../components/Similars.vue';
 export default {
   data() {
     return {
@@ -33,6 +35,8 @@ export default {
 
       listeBazigaran: {},
       listeImgs:{},
+      movieList:{},
+
       movieData: {
         "id": "tt0371746",
         "title": "Iron Man",
@@ -888,7 +892,80 @@ export default {
         "tagline": null,
         "keywords": "billionaire,inventor,robot suit,marvel cinematic universe,based on comic",
         "keywordList": [],
-        "similars": [],
+        "similars": [
+        {
+            "id": "tt1228705",
+            "title": "Iron Man 2",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "6.9"
+        },
+        {
+            "id": "tt1300854",
+            "title": "Iron Man 3",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_Ratio0.7053_AL_.jpg",
+            "imDbRating": "7.1"
+        },
+        {
+            "id": "tt0848228",
+            "title": "The Avengers",
+            "image": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "8.0"
+        },
+        {
+            "id": "tt0458339",
+            "title": "Captain America: The First Avenger",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTYzOTc2NzU3N15BMl5BanBnXkFtZTcwNjY3MDE3NQ@@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "6.9"
+        },
+        {
+            "id": "tt0800369",
+            "title": "Thor",
+            "image": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.0"
+        },
+        {
+            "id": "tt1843866",
+            "title": "Captain America: The Winter Soldier",
+            "image": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_Ratio0.6860_AL_.jpg",
+            "imDbRating": "7.8"
+        },
+        {
+            "id": "tt2395427",
+            "title": "Avengers: Age of Ultron",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.3"
+        },
+        {
+            "id": "tt3498820",
+            "title": "Captain America: Civil War",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.8"
+        },
+        {
+            "id": "tt1211837",
+            "title": "Doctor Strange",
+            "image": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.5"
+        },
+        {
+            "id": "tt2250912",
+            "title": "Spider-Man: Homecoming",
+            "image": "https://m.media-amazon.com/images/M/MV5BNTk4ODQ1MzgzNl5BMl5BanBnXkFtZTgwMTMyMzM4MTI@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.4"
+        },
+        {
+            "id": "tt3896198",
+            "title": "Guardians of the Galaxy Vol. 2",
+            "image": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.6"
+        },
+        {
+            "id": "tt0478970",
+            "title": "Ant-Man",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_Ratio0.6763_AL_.jpg",
+            "imDbRating": "7.3"
+        }
+    ],
         "tvSeriesInfo": null,
         "tvEpisodeInfo": null,
         "errorMessage": ""
@@ -902,7 +979,8 @@ export default {
     Photos,
     TitleMovie,
     BtnLinks,
-    DetailsMovie
+    DetailsMovie,
+    Similars,
 },
   methods: {
     getMovie() {
@@ -925,6 +1003,7 @@ export default {
           
           this.listeBazigaran = this.movieData.actorList.slice(0,5),
           this.listeImgs=this.movieData.images.items.slice(0,10)
+          this.movieList=this.movieData.similars.slice(0,11)
         });
     },
   },
