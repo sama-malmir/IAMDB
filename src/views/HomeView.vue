@@ -7,6 +7,7 @@
     <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
     <Photos :listKameleImgs="listeImgs" />
     <Similars :fullMovies="movieList" />
+    <Faqs :faqs="soalat" />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
 import DetailsMovie from '../components/DetailsMovie.vue';
 import Similars from '../components/Similars.vue';
+import Faqs from '../components/Faqs.vue';
 export default {
   data() {
     return {
@@ -36,6 +38,7 @@ export default {
       listeBazigaran: {},
       listeImgs:{},
       movieList:{},
+      soalat:{},
 
 
       movieData: {
@@ -1089,11 +1092,12 @@ export default {
   components: {
     CoverSite,
     CastAndCrew,
-    Photos,
     TitleMovie,
     BtnLinks,
     DetailsMovie,
+    Photos,
     Similars,
+    Faqs,
 },
   methods: {
     getMovie() {
@@ -1124,8 +1128,7 @@ export default {
         .then(responseFAQ=>responseFAQ.text())
         .then(responseFAQ=> JSON.parse(responseFAQ))
         .then(responseFAQ=>{
-
-
+          this.soalat=this.movieFAQ.items.slice(0,2)
         });
     },
   },
