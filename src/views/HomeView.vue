@@ -37,6 +37,7 @@ export default {
       listeImgs:{},
       movieList:{},
 
+
       movieData: {
         "id": "tt0371746",
         "title": "Iron Man",
@@ -969,7 +970,119 @@ export default {
         "tvSeriesInfo": null,
         "tvEpisodeInfo": null,
         "errorMessage": ""
-      }
+      },
+      movieFAQ:
+      {
+"imDbId": "tt0371746",
+"title": "Iron Man",
+"fullTitle": "Iron Man (2008)",
+"type": "Movie",
+"year": "2008",
+"items": [
+{
+"question": "Which characters were adapted from Marvel's Iron Man comic books?",
+"answer": "For this list only the creators of the characters first appearances are listed. As with all comic book characters, Iron Man and his supporting cast have had several reinventions and different contributions from different writers. Theses include different iterations in different mediums that all have added different concepts to the overall mythology of the characters.Theirs Anthony Edward \"Tony\" Stark, referred to as Tony Stark. He made his first appearance in the comic story \"Iron Man Is Born!\" Tales of Suspense #39 (March 1963) by writers & Larry Lieber and artists Don Heck & Jack Kirby.Colonel James Rupert \"Rhodey\" Rhodes, referred to as Rhodey Rhodes on screen. He made his first appearance in the comic story \"At the Mercy of My Foes Friends!\" from Iron Man #118 (January 1979) by writer David Michelinie, writer/artist Bob Layton and artist John Byrne.Obadiah Stane, who made his first appearance in the comic story \"Knight's Errand\" from Iron Man #163 (October 1982) by writer Denny O'Neil and artist Luke McDonnell.Virginia \"Pepper\" Potts, referred to as Pepper Potts on screen. She made her first appearance in the comic story \"The Icy Fingers of Jack Frost!\" from Tales of Suspense #45 (September 1963) by writers Stan Lee & Robert Bernstein and artist Don Heck.Christine Everhart, who made her first appearance in the comic story \"The Best Defense - Part Three: Technology\" from Iron Man Volume 3 #75 by writer John Jackson Miller and artist Jorge Lucas.J.A.R.V.I.S. (Just A Rather Very Intelligent System) is based on the comic book character of Edwin Jarvis. Edwin Jarvis made his first appeared in the comic story \"Captain America\" from Tales of Suspense #59 (November 1964) by writer Stan Lee and artist Jack Kirby.Harold Joseph \"Happy\" Hogan, referred to as Happy Hogan on screen. He made his first appearance in the comic story \"The Icy Fingers of Jack Frost!\" from Tales of Suspense #45 (September 1963) by writers Stan Lee & Robert Bernstein and artist Don Heck.Howard Anthony Walter Stark, referred to as Howard Stark on screen. He made his first appearance in the comic story \"The Controller Lives!\" from Iron Man #28 (August 1970) by writer Archie Goodwin and artist Don Heck.and Nicholas Joseph \"Nick\" Fury, referred to as Nick Furry on screen. He made his first appearance in the comic story Sergeant Fury and his Howling Commandos #1 (May 1963) by writer Stan Lee and artist Jack Kirby.All other characters were created just for the film by the movie's writers. Edit"
+},
+{
+"question": "Why was the fighter pilot's chute jammed during the \"training exercise\" scene?",
+"answer": "First, it's a very common plot device in action movies: the parachute ejector seat that fails or the parachute that fails to deploy. Great way to create tension in an action sequence like this.In this case, it looks like a malfunction with the lever that the pilot has to yank on to release his chute: it's probably bent in such a way that he can't pull up on it."
+},
+{
+"question": "What is 'Iron Man' about?",
+"answer": "When wealthy industrialist Tony Stark () suffers a chestful of shrapnel after his Humvee is bombed by enemy fire in Afghanistan where he has gone to give a presentation of the new Jericho missile that Stark Industries has developed, his life is saved only by an electromagnet attached to a car battery that serves to keep the shrapnel from piercing his heart. Tony escapes from his captors by creating an arc reactor that eliminates the need for the battery and an iron suit that protects him from attack. Back in the U.S., he announces that his company will cease making weapons, and he begins work on an updated armored suit, all to the chagrin of his partner Obadiah Stane (Jeff Bridges). Edit"
+},
+{
+"question": "Is \"Iron Man\" based on a book?",
+"answer": "Iron Man is based on a comic book of the same name created by Marvel Comics editor Stan Lee and artists Don Heck and Jack Kirby. Iron Man first appeared in issue #39 of Tales of Suspense (March 1963). The screenplay for the film was written by Mark Fergus, Hawk Ostby, Art Marcum, and Matt Holloway. Iron Man was followed by (2010) and Iron Man Three (2013) (2013). Edit"
+},
+{
+"question": "Who or what is the Invincible Iron Man?",
+"answer": "Iron Man is the alias used by billionaire industrialist, inventor, military contractor, philanthropist, adventurer and socialite, Tony Stark. By day, Stark is the majority shareholder, CEO, chief technologist and de facto head of Stark International, a multinational conglomerate of technology companies. Stark International's primary businesses are research and development, weapons manufacturing, engineering, computer software and consumer electronics. Stark transforms himself into Iron Man when he dons his revolutionary suit of powered armor to fight crime and injustice. The Iron Man grants Stark superhuman strength, invulnerability, supersonic-flight capabilities and access to a vast array of directed energy weapons (including Stark's own proprietary repulsor-ray technology). The suit is controlled cybernetically by the wearer (as in the mechanisms of perception and control are similar to that of the natural relationship between the natural brain and the rest of the natural body). It also features a sophisticated operating system which employs some artificial intelligence."
+},
+{
+"question": "Can Iron Man be considered a cyborg?",
+"answer": "In common parlance, no; Iron Man is not a cyborg. He is not much more of a cyborg than a person who wears glasses or contact lenses. A cyborg or cybernetic being, as commonly depicted in science fiction, e.g., (1987), The Terminator (1984) (1984), The Six Million Dollar Man (1973) (1973), and Darth Vader from Star Wars (1977) (1977), is a (chiefly cybernetic and often inseparable) fusion of living tissue and synthetic components. This interactive synthesis of organic and artificial systems can produce, for an organic lifeform, a wide variety of effects including, but not limited to, enhanced strength, speed, reflexes, endurance, intelligence etc. Iron Man is a \"superhero persona\", a man who is wearing/operating a suit of powered armor (an \"exoskeleton\") that could be worn by different people. Stark does, however, have an embedded chest piece, intended as a lifesaving device and capable of interacting with and powering the armor. Edit"
+},
+{
+"question": "What kind of jet is Tony Stark's private jet?",
+"answer": "It is a Boeing 737-800. However, the tail section is CGI-altered to make it appear more futuristic. Stark, being a technology wiz and a billionaire, would jump at the chance to have a sleeker and more modern plane than anyone else."
+},
+{
+"question": "Who are the villain(s) in 'Iron Man'?",
+"answer": "Iron Man's primary nemesis is Obadiah Stane, aka the Iron Monger. In the beginning of the movie, Stark is captured by a group of terrorists known as \"The Ten Rings\". The Ten Rings is a reference to long time Iron Man nemesis, The Mandarin, who wields ten directed-energy-based rings as weapons."
+},
+{
+"question": "Which armors are featured in the film?",
+"answer": "The three armors featured are the Mark I, Mark II and Mark III. The Mark I armor is the gray incarnation of the Diving Bell Armor Stark was forced to produce while in captivity. It is bullet resistant and features flamethrowers as its primary weapon. It also has limited flight capability. The Mark II armor features a more streamlined design, flight capabilities and directed energy weapons. It has a monochrome silver-metallic finish. The Mark III is essentially a duplicate of Mark II revised with the trademark red and gold color scheme known to the majority of fans. The Mark III armor compensates for a design flaw in the Mark II design which allowed for \"icing\" to occur during high-altitude flights."
+},
+{
+"question": "Does this movie mention Tony Stark's alcohol issues?",
+"answer": "No, but we do see Tony Stark drinking often. Several characters also have recollections of Tony being inebriated during events that take place prior to the film's timeline."
+},
+{
+"question": "Why does Tony ask for one of the vodka martinis to be \"dirty\"?",
+"answer": "Presumably because he likes it that way. A standard vodka martini contains vodka, vermouth and an olive, and is crystal clear in color; a \"dirty\" martini is one that uses olive brine in place of or alongside the vermouth, and appears cloudier in color."
+},
+{
+"question": "Is this in the same universe as the rest of the Marvel movies?",
+"answer": "Only some of them. All cinematic material made under the Marvel Studios banner, e.g., Iron Man (2008), , Thor (2011) and Captain America: The First Avenger (2011), are all set in the same universe (known as the Marvel Cinematic Universe), with the characters crossing over (most notably S.H.I.E.L.D. personnel-Fury, Coulson, Romanoff or Barton), culminating in The Avengers (2012) which ties these films together. Marvel Studios also owns / owned The Punisher and Blade, however The Punisher (2004), Punisher: War Zone (2008), Blade (1998), Blade II (2002) and Blade: Trinity (2004) are / were not in the Marvel Cinematic Universe (MCU). Other Marvel-based films owned by other studios are not set in the MCU, due to differing ownership. This includes, for example: Spider-Man (2002) and Ghost Rider (2007) (both owned by Sony); X-Men (2000), Fantastic Four (2005), and Daredevil (2003) (all owned by Fox). Edit"
+},
+{
+"question": "What does S.H.I.E.L.D. stand for?",
+"answer": "In this film it stands for \"Strategic Homeland Intervention, Enforcement and Logistics Division\". Several characters joke about the length, which leads to the creation of the acronym, SHIELD. In the comics, it is \"Supreme Headquarters, International Espionage, Law-enforcement Division\" from 1965 until 1991 when it changed its name to \"Strategic Hazard Intervention, Espionage Logistics Directorate\". In the popular 1990s Spider-Man cartoon that aired on Fox Kids, it was identified as \"Strategical Hazard International Espionage Law-enforcement Division\"."
+},
+{
+"question": "Why didn't Nick Fury appear in preview screenings?",
+"answer": "In an Entertainment Weekly interview, says that Marvel Studios President Kevin Feige ordered the scene cut out of previews in order to keep fans guessing. Edit"
+},
+{
+"question": "Why was Samuel L. Jackson cast in the role of Nick Fury? Isn't Fury Caucasian in the comic books?",
+"answer": "The portrayal of Colonel Nicholas Joseph \"Nick\" Fury by Sam Jackson is based on the Ultimate Marvel Universe interpretation of the character. Ultimate Fury was intentionally patterned after the veteran actor after obtaining his consent to do so. This casting decision has proven controversial amongst continuity purists, despite the fact that it is not the first time such a deviation from original canon has occurred. Wilson Fisk (aka the Kingpin of Crime), a Caucasian character, was portrayed by , an American actor of Black descent, in the 2003 adaptation of Daredevil. The Ultimate Marvel Universe is a continuity that is separate and distinct from the classic Marvel Universe. The Ultimate imprint features revisionist versions of characters and stories which are featured in, and originally took place in, classic Marvel continuity. The Marvel Ultimate imprint prefixes all of its characters, scenarios and titles with the word \"Ultimate\" (e.g. Ultimate Spider-Man, Ultimate Iron Man, Ultimate Marvel Team-Up, Ultimate Adventures, etc). Most Ultimate characters only bear the name and basic origin of their classic counterparts. Other details such as powers, appearance, personality and modus operandi are vastly different. To distinguish the two different continuities, some fans refer to classic Marvel Universe continuity as the \"616 Universe\". Nick Fury (played by Jackson) appears in a post end-credits sting where he confronts Tony Stark in his residence and says he wants to talk about \"The Avengers Initiative.\" Also as a result of Jackson's involvement with the film series, it led to a new character named Nick Fury Jr. to be introduced into the Mainstream universe as a means to phase out the classic version from the franchise. More Information: Ultimate Iron Man, Ultimate Nick Fury, Ultimate Marvel, Earth-616, and Nick Fury Jr. Edit"
+},
+{
+"question": "What are the main differences between the \"Iron Man\" film and comic book properties?",
+"answer": "There are many differences between the film and comic book properties, the primary differences between the two are documented as follows. In the comics, Ho Yinsen—the man who helped Tony build the first Iron Man suit—was Chinese. The film's Yinsen () is Afghani, from the fictional town of Gulmira. However, Yinsen is a Chinese name and it would be unlikely for an Afghan to be so named. Obadiah Stane, in the comics, was a rival businessman, and had his own company, Stane International. However, like his film incarnation, he was friendly with Tony's father before his passing. The group that kidnaps Tony Stark is implied to be connected to the Mandarin, Iron Man's archenemy. The Mandarin had nothing to do with his kidnapping in the comics (well, not directly, anyway). The Ten Rings are also involved with Obadiah Stane, who personally ordered the hit on Tony Stark. This is not the case in the comic book series. Jim Rhodes was a full-bird Colonel in the United States Marine Corps when he first appeared in the comics, while in the film he is a Lt. Colonel in the Air Force. JARVIS, the A.I. featured in the film, is a flesh and blood butler in the comic books. Edit"
+},
+{
+"question": "Why does Tony Stark act the way he does during the last press conference?",
+"answer": "During the press conference at the end, Tony Stark hesitates to use SHIELD's cover story and then blurts out, \"I am Iron Man.\" As to why he does this, an excerpt from the novelization offers some insight:He thinks about how lying and deceit from others has brought him to this pass. He has sworn to put an end to that sort of thing, to do away with underhandedness and double-dealing. With the sort of mind-set that resulted in weapons being secretly sold to enemies and destroying lives.People don't really know what happened last night. More questions will be raised, and more. There has to be an end to fear, and an end to secrecy, or otherwise this wreck of a world is going to be the best they've got and it's only going to get worse.And the honesty, the transforming of the unknown into the known, the upfront dealings with people...it has to start somewhere.Up until the publication of Iron Man vol. 3 issue #55, where Tony Stark reveals his identity, the media spin was that Iron Man was Tony Stark's bodyguard. Given the character's tendency towards impulsive and risky behavior, his sudden revelation is not out of character."
+},
+{
+"question": "How does the movie end?",
+"answer": "Tony orders Pepper to overload the large arc reactor in the building even though he is still on the roof. Pepper is hesitant but obeys. The reactor releases its shockwave, knocking out the Iron Monger and killing Stane. The mini arc reactor in Tony's chest sparks back to life, allowing him to survive. The press subsequently lauds the \"Iron Man\" as a hero. Tony likes the moniker, even though his suit is made of a gold-titanium alloy. Agent Coulson () invents a cover story telling the \"truth\" about the destruction of the Stark Building: a robotic prototype malfunctioned and caused damage to the arc reactor, Stark was on his yacht in Avalon Island, Stane was killed in a small aircraft accrident while on vacation, and the Iron Man was Stark's bodyguard. In the final scene, Tony is about to report Coulson's cover story at a press conference but tosses away his prepared statement and says only, \"I am Iron Man.\" Edit"
+},
+{
+"question": "Is there a scene after the credits?",
+"answer": "Yes. Tony returns home to find a mysterious man in black awaiting him. He introduces himself as Nick Fury, director of SHIELD. He points out that Tony is not the only superhero in existence and wants to talk about him joining the \"Avenger Initiative.\""
+},
+{
+"question": "Who are the Avengers?",
+"answer": "The original Avengers consisted of Ant-Man, Wasp, Thor, Iron Man and the Incredible Hulk. Captain America joined the group in Volume 1 of The Avengers, Issue number 4, and replaced the Hulk."
+},
+{
+"question": "Is it true Captain America's shield appears in the movie?",
+"answer": "Yes. During the scene after Colonel Rhodes gives his \"training exercise\" cover story to the press, Tony Stark is in the middle of removing his damaged suit. What appears to be a partially built, shield-like apparatus with an American flag design and a star in the middle can be seen in Stark's work area just before Pepper Potts () discovers him. Producer Kevin Feige has stated that it is, indeed, Captain America's shield. Blink and you'll miss it! Edit"
+},
+{
+"question": "Does Iron Man appear in 'The Incredible Hulk'?",
+"answer": "Yes. Tony Stark puts in an appearance at the end of , which suggests that a team is being formed, most likely \"The Avengers.\" In fact, the post-credits scene (i.e., the stinger) makes reference to the \"Avengers Initiative.\" Edit"
+},
+{
+"question": "Where is Stan Lee's cameo in this movie?",
+"answer": "As Tony Stark arrives at his third annual benefit for the Firefighter's Family Fund, he pats Stan Lee who presents like Hugh Hefner, i.e. wearing a bathrobe and having a supermodel at each of his arms."
+},
+{
+"question": "What are the names of all of the songs that have been featured in Iron Man trailers?",
+"answer": "Hell Above Water by English alternative duo CurveHey Man Nice Shot by American rock band FilterIron Man by English heavy metal band Black SabbathBack in Black by Australian hard rock band AC/DCCochise by American hard rock band AudioslaveBirthright by American industrial rock band Celldweller"
+},
+{
+"question": "Is \"Iron Man\" available on DVD and Blu-ray disc?",
+"answer": "Iron Man is available worldwide on DVD (regions 1 and 2) and Blu-ray (regions A and B)."
+}
+],
+"spoilerItems": [],
+"errorMessage": ""
+      },
 
     };
     },
@@ -984,7 +1097,7 @@ export default {
 },
   methods: {
     getMovie() {
-      fetch('https://imdb-api.com/en/API/Title/k_81sqejxg/tt0371746/FullActor,FullCast,Posters,Images,Trailer,Ratings')
+      fetch('https://imdb-api.com/en/API/Title/k_81sqejxgg/tt0371746/FullActor,FullCast,Posters,Images,Trailer,Ratings')
         .then(response => response.text())
         .then(response => JSON.parse(response))
         .then(response => {
@@ -1006,9 +1119,19 @@ export default {
           this.movieList=this.movieData.similars.slice(0,11)
         });
     },
+    getFAQ(){
+      fetch('https://imdb-api.com/en/API/FAQ/k_088t508ii/tt0371746')
+        .then(responseFAQ=>responseFAQ.text())
+        .then(responseFAQ=> JSON.parse(responseFAQ))
+        .then(responseFAQ=>{
+
+
+        });
+    },
   },
   created() {
     this.getMovie()
+    this.getFAQ()
   },
 }
 </script>
