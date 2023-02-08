@@ -1,6 +1,7 @@
 <template>
   <div class="bg-back-ground text-main-color">
     <CoverSite />
+    <Rating :ax="imgUrl" />
     <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
     <BtnLinks />
     <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
@@ -20,9 +21,11 @@ import Photos from '../components/Photos.vue';
 import DetailsMovie from '../components/DetailsMovie.vue';
 import Similars from '../components/Similars.vue';
 import Faqs from '../components/Faqs.vue';
+import Rating from '../components/Rating.vue';
 export default {
   data() {
     return {
+      imgUrl:null,
       title:null,
       direcotr:null,
       year:null,
@@ -1098,6 +1101,7 @@ export default {
     Photos,
     Similars,
     Faqs,
+    Rating,
 },
   methods: {
     getMovie() {
@@ -1105,6 +1109,7 @@ export default {
         .then(response => response.text())
         .then(response => JSON.parse(response))
         .then(response => {
+          this.imgUrl=this.movieData.image,
           this.title=this.movieData.title,
           this.direcotr=this.movieData.directors,
           this.year=this.movieData.year,
@@ -1128,7 +1133,7 @@ export default {
         .then(responseFAQ=>responseFAQ.text())
         .then(responseFAQ=> JSON.parse(responseFAQ))
         .then(responseFAQ=>{
-          this.soalat=this.movieFAQ.items.slice(0,2)
+          this.soalat=this.movieFAQ.items
         });
     },
   },
