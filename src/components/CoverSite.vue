@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img src="../assets/img/cover.png" alt="coversite" class="" >
+        <div class="bg-cover bg-center bg-coversite h-h-264 lg:h-h-671" ></div>
     </div>
 </template>
 <script>
