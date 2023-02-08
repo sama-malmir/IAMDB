@@ -1,6 +1,6 @@
 <template>
     <div class="mx-[15px]">
-        <p class="font-normal opacity-60 text-f16 lg:text-f18">{{ Description }}</p>
+        <p class="font-normal opacity-60 text-f16 lg:text-f18 lg:w-w-504">{{ Description }}</p>
         <h2 class="font-bold text-ftm lg:text-ftd">Details</h2>
         <div class=" w-w-330">
             <div class="flex columns-2 border-b border-border-0.1 items-center py-1.5	">

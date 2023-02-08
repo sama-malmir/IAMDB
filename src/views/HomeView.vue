@@ -1,11 +1,22 @@
 <template>
   <div class="bg-back-ground text-main-color">
     <CoverSite />
-    <Rating :ax="imgUrl" />
-    <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
-    <BtnLinks />
-    <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
-    <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
+    <!-- --------first-section-------- -->
+    <section class="container">
+      <div class="lg:flex lg:flex-row lg:ml-[132px] lg:gap-g-60">
+        <div class="lg:-mt-52">
+          <Rating :ax="imgUrl" />
+      </div>
+      <div class="lg:-mt-20">
+          <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
+          <BtnLinks />
+          <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
+      </div>
+      <div class="lg:-mt-40">
+          <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
+      </div>
+      </div>
+    </section>
     <Photos :listKameleImgs="listeImgs" />
     <Similars :fullMovies="movieList" />
     <Faqs :faqs="soalat" />
