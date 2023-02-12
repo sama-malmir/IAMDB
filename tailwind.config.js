@@ -15,6 +15,7 @@ module.exports = {
         'yellow-color':'rgba(255, 210, 0, 1)',
         'back-ground': 'rgba(27, 23, 23, 1)',
         'hover-btnlinks':'rgba(255, 255, 255, 0.1)',
+        'hover-links':'rgba(142, 13, 13, 1)',
         'border-0.1':'rgba(238, 235, 221, 0.1)',
       },
       spacing: {

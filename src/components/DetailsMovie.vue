@@ -1,8 +1,8 @@
 <template>
-    <div class="mx-[15px]">
+    <div class="mx-[15px] ">
         <p class="font-normal opacity-60 text-f16 lg:text-f18 lg:w-w-504">{{ Description }}</p>
         <h2 class="font-bold text-ftm lg:text-ftd">Details</h2>
-        <div class=" w-w-330">
+        <div class=" w-w-330 ">
             <div class="flex columns-2 border-b border-border-0.1 items-center py-1.5	">
                 <p class="text-f16 font-bold lg:text-f18 w-full">Writers </p>
                 <span class="text-f14 font-normal opacity-60 lg:text-f16 w-full">{{ writersName }}</span>

@@ -5,7 +5,7 @@
                  <li v-for="movie in fullMovies" class="shrink-0">
                     <img :src="movie.image" alt="similars" class="object-cover object-center  h-h-342 lg:w-w-276 lg:h-h-409 rounded-xl">
                     <div class="px-2.5 flex justify-between pt-3 ">
-                            <p class="font-bold text-f16 lg:text-f18 truncate w-w-198">{{ movie.title }}</p>
+                            <p class="font-bold text-f16 lg:text-f18 truncate w-w-165 lg:w-w-198">{{ movie.title }}</p>
                         <div class="inline-flex">
                             <img src="../assets/icon/star .svg" alt="star" class="">
                             <p class="pl-1.5 text-f16 lg:text-f18 font-normal opacity-40 ">{{ movie.imDbRating }}</p>
@@ -18,6 +18,7 @@
 </template>
 <script>
 export default{
+
     props:{
         fullMovies:Object
     }
