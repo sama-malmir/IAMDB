@@ -17,9 +17,19 @@
       </div>
       </div>
     </section>
-    <Photos :listKameleImgs="listeImgs" />
-    <Similars :fullMovies="movieList" />
-    <Faqs :faqs="soalat" />
+    <!-- ------photos----- -->
+    <section>
+      <Photos :listKameleImgs="listeImgs" />
+    </section>
+    <!-- --------similars------- -->
+    <section>
+      <Similars :fullMovies="movieList" />
+    </section>
+    <!-- -----------last-section------- -->
+    <!-- ----FAQ---- -->
+    <section>
+      <Faqs :faqs="soalat" />
+    </section>
   </div>
 </template>
 
