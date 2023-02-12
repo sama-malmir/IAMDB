@@ -9,7 +9,11 @@
       </div>
       <div class="lg:-mt-20">
           <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
-          <BtnLinks />
+          <!-- --------btn-links--------- -->
+          <div class="inline-flex py-6">
+            <Links />
+            <BtnLinks />
+          </div>
           <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
       </div>
       <div class="lg:-mt-40">
@@ -36,6 +40,7 @@
 <script >
 import CoverSite from '../components/CoverSite.vue';
 import TitleMovie from '../components/TitleMovie.vue';
+import Links from '../components/Links.vue';
 import BtnLinks from '../components/BtnLinks.vue';
 import CastAndCrew from '../components/CastAndCrew.vue';
 import Photos from '../components/Photos.vue';
@@ -1118,6 +1123,7 @@ export default {
     CastAndCrew,
     TitleMovie,
     BtnLinks,
+    Links,
     DetailsMovie,
     Photos,
     Similars,
