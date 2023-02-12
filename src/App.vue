@@ -1,5 +1,5 @@
-<template>
-  <body>
+<template >
+  <body >
     <HomeView />
   </body>
 
