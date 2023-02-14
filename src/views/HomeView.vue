@@ -6,6 +6,7 @@
       <div class="lg:flex lg:flex-row lg:ml-[132px] lg:gap-g-60">
         <div class="lg:-mt-52">
           <Rating :ax="imgUrl" />
+          <RatingScore :ratings="imDbRating" :emtiyaz="imDbRatingVotes" />
       </div>
       <div class="lg:-mt-20">
           <TitleMovie :esmeFilm="title" :esmeKargardan="direcotr" :sal="year" :baznevisi="rated" :zamanejra="runtime" />
@@ -16,7 +17,7 @@
           </div>
           <DetailsMovie :Description="plot" :writersName="writers" :genresMovie="genres" :awardsMovie="awards" :countrises="countries" :ratings="imDbRating"/>
       </div>
-      <div class="lg:-mt-40">
+      <div class="lg:-mt-52">
           <CastAndCrew :listeKameleBazigaran="listeBazigaran" />
       </div>
       </div>
@@ -48,6 +49,7 @@ import DetailsMovie from '../components/DetailsMovie.vue';
 import Similars from '../components/Similars.vue';
 import Faqs from '../components/Faqs.vue';
 import Rating from '../components/Rating.vue';
+import RatingScore from '../components/RatingScore.vue';
 export default {
   data() {
     return {
@@ -63,7 +65,7 @@ export default {
       awards:null,
       countries:null,
       imDbRating:null,
-
+      imDbRatingVotes:null,
       listeBazigaran: {},
       listeImgs:{},
       movieList:{},
@@ -1129,6 +1131,7 @@ export default {
     Similars,
     Faqs,
     Rating,
+    RatingScore,
 },
   methods: {
     getMovie() {
@@ -1148,7 +1151,7 @@ export default {
           this.awards=this.movieData.awards,
           this.countries=this.movieData.countries,
           this.imDbRating=this.movieData.imDbRating,
-          
+          this.imDbRatingVotes=this.movieData.imDbRatingVotes,
           
           this.listeBazigaran = this.movieData.actorList.slice(0,5),
           this.listeImgs=this.movieData.images.items.slice(0,10)

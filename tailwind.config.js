@@ -62,6 +62,7 @@ module.exports = {
         f21:['21px','24.61px'],
         ff40:['40px','46.88px'],
         ff48:['48px','56.25px'],
+        f25:['25px','29.3px'],
     
       },
       margin: {
