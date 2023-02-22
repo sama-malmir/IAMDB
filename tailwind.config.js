@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'coversite': "url('../assets/img/cover.png')",
+        'search':"url('../assets/img/search.svg')",
+        'search-d':"url('../assets/img/search-d.svg')",
       },
       colors:{
         'main-color':'#EEEBDD',
@@ -35,6 +37,9 @@ module.exports = {
         '9px':'9px',
         'w-14.66':'14.66px',
         'w-17.1':'17.1px',
+        '132px':'132px',
+        '200px':'200px',
+        'w-18':'18px',
       
       },
       height: {
@@ -49,6 +54,7 @@ module.exports = {
         'h-671':'671px',
         'h-415':'415px',
         'h-18':'18px',
+        'h-727':'727px',
       },
       fontSize: {
         f14: ['14px', '16.41px'],
@@ -72,6 +78,7 @@ module.exports = {
         '90':'90px',
         '147':'147px',
         '60':'60px',
+        '464px':'464px',
       },
       gap: {
         'g-60': '60px',
