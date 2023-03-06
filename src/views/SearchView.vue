@@ -84,7 +84,7 @@ export default {
     },
     methods: {
         searchMovie() {
-            fetch('https://imdb-api.com/en/API/SearchMovie/k_0m1wyka7/' + this.UserSearch)
+            fetch('https://imdb-api.com/en/API/SearchMovie/k_y8ym3ytl/' + this.UserSearch)
                 .then(response => response.text())
                 .then(response => JSON.parse(response))
                 .then(response => {

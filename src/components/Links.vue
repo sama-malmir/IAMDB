@@ -20,7 +20,7 @@ export default{
     },
     methods: {
         getTrailer() {
-            fetch('https://imdb-api.com/en/API/Trailer/k_0m1wyka7/' + this.movieId)
+            fetch('https://imdb-api.com/en/API/Trailer/k_y8ym3ytl/' + this.movieId)
                 .then(response => response.text())
                 .then(response => JSON.parse(response))
                 .then(response => {

@@ -62,7 +62,7 @@
         </ul>
        </div>
         </div>
-        <div class=" w-11 h-11 border-2 rounded-full hover:bg-hover-btnlinks  lg:w-w-61 lg:h-h-61 ml-4 relative">
+        <div @click="like()" class=" w-11 h-11 border-2 rounded-full  hover:bg-secondary-color active:bg-secondary-color focus:outline-none focus:ring focus:stroke-secondary-color  lg:w-w-61 lg:h-h-61 ml-4 relative">
             <img src="../assets/icon/like2.svg" alt="btn link" class="scale-100 absolute bottom-[9px]	left-[9px] lg:bottom-[18px] lg:left-[17px]"/>
         </div>
 </template>
@@ -80,6 +80,9 @@ export default{
     onFocus() {},
     copyURL() {
         navigator.clipboard.writeText('http://localhost:5173/' + this.movieId);
+    },
+    like(){
+
     }
   },
   created() {
