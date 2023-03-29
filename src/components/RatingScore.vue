@@ -26,7 +26,7 @@
     <span class="absolute font-bold text-f25 top-6 left-5">{{ ratings }}</span>
     <div class=" lg:items-center ml-[18px] mt-[18px]">
         <p class="font-bold text-f18">{{ emtiyaz }}</p>
-        <p class="font-normal text-f16 pt-1.5 "> ratings on IMDB </p>
+        <p class="font-normal text-f16 pt-1.5 w-max"> ratings on IMDB </p>
     </div>
     </div>
     

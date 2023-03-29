@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="hidden lg:block">
-                    <button @click="searchMovie().isOpen = !isOpen"
+                    <button @click="searchMovie()"
                         class=" lg:flex-none  inline-flex border-0 bg-secondary-color  lg:w-40 lg:h-h-61 rounded-full justify-center items-center gap-3 overflow-hidden">
                         <span class="text-main-color font-normal text-f16 lg:text-f21">Search</span>
                         <img class="lg:w-w-21 lg:h-h-21 h-h-18 w-w-18" src="../assets/icon/search-icon.svg"
@@ -84,11 +84,12 @@ export default {
     },
     methods: {
         searchMovie() {
-            fetch('https://imdb-api.com/en/API/SearchMovie/k_y8ym3ytl/' + this.UserSearch)
+            fetch('https://imdb-api.com/en/API/SearchMovie/k_0m1wyka7/' + this.UserSearch)
                 .then(response => response.text())
                 .then(response => JSON.parse(response))
                 .then(response => {
                     this.movies = response.results
+                    isOpen = true
                 });
         }
     }

@@ -98,7 +98,7 @@ export default {
 },
   methods: {
     getPoster(){
-      fetch('https://imdb-api.com/en/API/Posters/k_5jp34ry3/'+ this.movieId)
+      fetch('https://imdb-api.com/en/API/Posters/k_0m1wyka7/'+ this.movieId)
       .then(response => response.text())
       .then(response => JSON.parse(response))
       .then(response => {
@@ -111,7 +111,7 @@ export default {
       });
     },
     getMovie() {
-      fetch('https://imdb-api.com/en/API/Title/k_5jp34ry3/' + this.movieId + '/FullActor,FullCast,Posters,Images,Trailer,Ratings')
+      fetch('https://imdb-api.com/en/API/Title/k_0m1wyka7/' + this.movieId + '/FullActor,FullCast,Posters,Images,Trailer,Ratings')
         .then(response => response.text())
         .then(response => JSON.parse(response))
         .then(response => {
@@ -136,7 +136,7 @@ export default {
         });
     },
     getFAQ(){
-      fetch('https://imdb-api.com/en/API/FAQ/k_y8ym3ytl/' + this.movieId)
+      fetch('https://imdb-api.com/en/API/FAQ/k_0m1wyka7/' + this.movieId)
         .then(responseFAQ=>responseFAQ.text())
         .then(responseFAQ=> JSON.parse(responseFAQ))
         .then(responseFAQ=>{
