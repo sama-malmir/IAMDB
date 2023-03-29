@@ -4,7 +4,7 @@
         <circle-progress
       :is="component"
       :progress="progress"
-      :percent="79"
+      :percent="ratings*10"
       color="rgba(238, 235, 221, 0.9)"
       :determinate="determinate"
       empty-color="rgba(238, 235, 221, 0.4)"

@@ -1,7 +1,7 @@
 <template>
-    <div class="ml-[15px] mt-14">
+    <div class="ml-[15px] mt-14 ">
         <h2 class="font-bold text-ftm lg:text-ftd">Cast & Crew</h2>
-        <div v-for="bazigar in listeKameleBazigaran.slice(0,tedadeCast)" class="flex py-6">
+        <div v-if="listeKameleBazigaran.length > 0" v-for="bazigar in listeKameleBazigaran.slice(0,tedadeCast)" class="flex py-6">
             <img :src="bazigar.image" alt="cast&crow" class="w-w-75 h-h-75 object-cover object-center rounded-full">
             <div class="flex flex-col justify-center pl-3">
                 <p class="font-bold text-f16 pb-1.5"> {{ bazigar.name }}</p>
