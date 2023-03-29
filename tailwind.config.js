@@ -5,9 +5,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {
+    extend: { 
       backgroundImage: {
-        'coversite': "url('../assets/img/cover.png')",
+        'coversite':"linear-gradient(to bottom, #1b171700, rgba(27, 23, 23, 0.3), #1b1717), url('../assets/img/cover.png')",
         'search':"url('../assets/img/search.svg')",
         'search-d':"url('../assets/img/search-d.svg')",
       },
@@ -19,6 +19,11 @@ module.exports = {
         'hover-btnlinks':'rgba(255, 255, 255, 0.1)',
         'hover-links':'rgba(142, 13, 13, 1)',
         'border-0.1':'rgba(238, 235, 221, 0.1)',
+        'gradient-1':'rgba(27, 23, 23, -0.7) 48%',
+        'gradient-2':'rgba(27, 23, 23, 0.9) 20%',
+        'gradient-2m':'rgba(27, 23, 23, -0.5) 20%',
+        'gradient-3':'#1B1717',
+        
       },
       spacing: {
         'w-75': '75px',

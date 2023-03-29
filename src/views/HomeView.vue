@@ -1,9 +1,13 @@
 <template>
-  <div class="bg-back-ground text-main-color">
-    <CoverSite :posterList="posters" />
+
+    <div class="bg-back-ground text-main-color">
+    
+      <CoverSite :posterList="posters" class="w-full h-h-264 lg:h-h-671" />
+    
+
     <!-- --------first-section-------- -->
     <section class="container">
-      <div class="lg:flex lg:flex-row lg:ml-[132px] lg:gap-g-60">
+      <div class="lg:flex lg:flex-row lg:ml-[132px] lg:gap-g-60 relative lg:items-center">
         <div class="lg:-mt-52">
           <Rating :ax="imgUrl" />
           <RatingScore :ratings="imDbRating" :emtiyaz="imDbRatingVotes" />
@@ -28,14 +32,14 @@
     </section>
     <!-- --------similars------- -->
     <section>
-      <Similars :fullMovies="movieList" />
+      <Similars :fullMovies="movieList" @pleaseRerender="this.$forceUpdate()" />
     </section>
     <!-- -----------last-section------- -->
     <!-- ----FAQ---- -->
     <section>
       <Faqs :faqs="soalat" />
     </section>
-  </div>
+  </div> 
 
   
 
@@ -94,20 +98,20 @@ export default {
 },
   methods: {
     getPoster(){
-      fetch('https://imdb-api.com/en/API/Posters/k_y8ym3ytl/'+ this.movieId)
+      fetch('https://imdb-api.com/en/API/Posters/k_5jp34ry3/'+ this.movieId)
       .then(response => response.text())
       .then(response => JSON.parse(response))
       .then(response => {
         if(response.backdrops.length > 0){
           this.posters = response.backdrops[0].link
         }else{
-          this.posters = 'https://howfix.net/wp-content/uploads/2018/02/sIaRmaFSMfrw8QJIBAa8mA-article.png'
+          this.posters = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmNO8FnHZhWB0Z7zjz7f36NmTIxjbJPWBWmQ&usqp=CAU'
         }
        
       });
     },
     getMovie() {
-      fetch('https://imdb-api.com/en/API/Title/k_y8ym3ytl/' + this.movieId + '/FullActor,FullCast,Posters,Images,Trailer,Ratings')
+      fetch('https://imdb-api.com/en/API/Title/k_5jp34ry3/' + this.movieId + '/FullActor,FullCast,Posters,Images,Trailer,Ratings')
         .then(response => response.text())
         .then(response => JSON.parse(response))
         .then(response => {
@@ -128,6 +132,7 @@ export default {
           this.listeBazigaran = response.actorList,
           this.listeImgs=response.images.items.slice(0,10)
           this.movieList=response.similars.slice(0,11)
+          document.title = this.title
         });
     },
     getFAQ(){
