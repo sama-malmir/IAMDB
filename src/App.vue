@@ -1,16 +1,3 @@
 <template >
-  <body >
-    <HomeView />
-  </body>
-
-  <RouterView />
+    <RouterView :key="$route.fullPath" />  
 </template>
-
-<script >
-import { RouterLink, RouterView } from 'vue-router'
-import HomeView from './views/HomeView.vue';
-</script>
-
-<style scoped>
-
-</style>
